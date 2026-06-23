@@ -1135,12 +1135,13 @@ FW_VERSIONS = {
       b'\xf1\x00NQ5__               1.01 1.03 99110-P1000         ',
     ],
   },
-  CAR.GENESIS_GV70_1ST_GEN: {
+ CAR.GENESIS_GV70_1ST_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00JK1 MFC  AT CAN LHD 1.00 1.02 99211-IY000 230627',
       b'\xf1\x00JK1 MFC  AT CAN LHD 1.00 1.04 99211-AR100 210204',
       b'\xf1\x00JK1 MFC  AT USA LHD 1.00 1.01 99211-AR200 220125',
       b'\xf1\x00JK1 MFC  AT USA LHD 1.00 1.01 99211-AR300 220125',
+      b'\xf1\x00JK1 MFC  AT USA LHD 1.00 1.01 99211-IY000 230223',
       b'\xf1\x00JK1 MFC  AT USA LHD 1.00 1.02 99211-IY000 230627',
       b'\xf1\x00JK1 MFC  AT USA LHD 1.00 1.04 99211-AR000 210204',
     ],
@@ -1149,7 +1150,15 @@ FW_VERSIONS = {
       b'\xf1\x00JK1_ SCC FHCUP      1.00 1.00 99110-AR200         ',
       b'\xf1\x00JK1_ SCC FHCUP      1.00 1.00 99110-AR300         ',
       b'\xf1\x00JK1_ SCC FHCUP      1.00 1.00 99110-IY000         ',
+      b'\xf1\x00JK1_ SCC FHCUP      1.00 1.00 99110-IY100         ',
       b'\xf1\x00JK1_ SCC FHCUP      1.00 1.02 99110-AR000         ',
+    ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x00JK1 BCW RR 1.00 , 1.00 (\x81\x11R#\x02!\x00\x10',
+      b'\xf1\x8b #\x08\x15 #\x08\t\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.hvac, 0x7b3, None): [
+      b"\xf1\x00JK1   97255-AR410CONTROL ASS'Y-DATC  1.05JK1 DATC(-)1.5       ",
     ],
   },
   CAR.GENESIS_GV70_ELECTRIFIED_1ST_GEN: {
